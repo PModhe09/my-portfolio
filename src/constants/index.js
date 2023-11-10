@@ -176,7 +176,7 @@ import {
     {
       name: "Social Media Backend",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Designed and implemented with distinct models for posts and users, Incorported security measures for authentication and authorization through jwt and bcrypt. Utilized multer for seamless file uploads. ",
       tags: [
         {
           name: "Node.js",
@@ -197,7 +197,7 @@ import {
     {
       name: "UsChat",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Built a responsive web app where users can create public chat rooms and do real-time messaging. It also has features like online/offline status, room description.",
       tags: [
         {
           name: "react",
