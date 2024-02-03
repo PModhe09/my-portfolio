@@ -17,7 +17,12 @@ import {
     uschat,
     cpp,
     codingninja,
-
+    firebase,
+    expressjs,
+    mysql,
+    nextjs,
+    postman,
+    deltax
   } from "../assets";
   
   export const navLinks = [
@@ -76,28 +81,48 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React.js",
+      icon: reactjs,
+    },
+    {
+      name:"Next.js",
+      icon: nextjs
+    },
+    {
+      name: "Node.js",
       icon: nodejs,
+    },
+    {
+      name: "Express.js",
+      icon: expressjs,
+    },
+    {
+      name: "Firebase",
+      icon: firebase
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "git",
+      name: "My SQL",
+      icon: mysql,
+    },
+    {
+      name: "Git",
       icon: git,
+    },
+    {
+      name: "Postman",
+      icon: postman,
     },
     // {
     //   name: "docker",
@@ -107,23 +132,20 @@ import {
   
   const experiences = [
     {
-      title: "Technical Content Creator",
-      company_name: "Mentro",
-      icon: mentro,
-      iconBg: "#383E56",
-      date: "September 2023 - Currently",
+      title: "Full Stack Developer Intern",
+      company_name: "DeltaX",
+      icon: deltax,
+      iconBg: "#212B35",
+      date: "February 2024 - Currently",
       points: [
-        "Developed comprehensive learning materials for Backend Development with Node.js, spanning foundational to advanced concepts, coupled with practical real-world projects.",
-        "Collaborated on the continuous improvement of the application by enhancing its core services, including resources, job listings, mentorship programs, and more.",
-        "Facilitated technical polling and knowledge-sharing initiatives on WhatsApp and Telegram to foster a highly engaged community.",
-        "Worked closely with the founder(s) in a multidisciplinary capacity, actively participating in operations, technology, product development, content creation, and marketing tasks.",
+       
       ],
     },
     {
       title: "Teaching Assistant Intern",
       company_name: "Coding Ninjas",
       icon: codingninja,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFFFF",
       date: "July 2021 - Nov 2021",
       points: [
         "Mentored students in Data Structures and Algorithms and OOPS Concepts in C++, facilitating understanding and problem-solving abilities, resulting in 30% reduction in assignment errors",
@@ -140,7 +162,7 @@ import {
       title: "B.Tech CSE",
       company_name: "Jaypee University of Enginering and Technology",
       icon: juet,
-      iconBg: "#383E56",
+      iconBg: "#FFFFFF",
       date: "2020 - 2024",
       points: [
         " I have consistently excelled in my B.Tech program, achieving CGPA of 8.1","Studied Computer Science fundamentals subjects like Database Management Systems, Software Engineering, Object Oriented Porgramming, Operating Systems and Computer Networks to provide a strong foundation.",
@@ -150,7 +172,7 @@ import {
       title: "React.js Course",
       company_name: "Internshala Trainings",
       icon: internshala,
-      iconBg: "#383E56",
+      iconBg: "#00A5EC",
       date: "June 2024 - July 2024",
       points: [
         "During the training, I acquired a strong foundation in ReactJS, gaining proficiency in key concepts and practical skills such as JSX, API integration, and component development.",
@@ -161,7 +183,7 @@ import {
       title: "C++ Foundation and DSA Course",
       company_name: "Coding Ninjas",
       icon: codingninja,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFFFF",
       date: "September 2020 - April 2021",
       points: [
         "Completed an extensive C++ Foundation and Data Structures and Algorithms (DSA) course, which provided a solid grounding in programming fundamentals and advanced problem-solving techniques.",
@@ -174,48 +196,47 @@ import {
   
   const projects = [
     {
-      name: "Social Media Backend",
+      name: "NextSpark",
       description:
-        "Designed and implemented with distinct models for posts and users, Incorported security measures for authentication and authorization through jwt and bcrypt. Utilized multer for seamless file uploads. ",
+        "Developed and launced an innovative and resonsive web application enabling job and internship seekers with off-campus application links, dereasing their search time by 50%",
       tags: [
         {
-          name: "Node.js",
-          color: "green-text-gradient",
+          name: "React.js",
+          color: "green-pink-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
+          color: "green-pink-gradient",
         },
         {
           name: "express.js",
-          color: "white-text-gradient",
+          color: "green-pink-gradient",
         },
       ],
       image: smbackend,
       source_code_link: "https://github.com/",
     },
     {
-      name: "UsChat",
+      name: "CoderCard",
       description:
-        "Built a responsive web app where users can create public chat rooms and do real-time messaging. It also has features like online/offline status, room description.",
+        "Developed CoderCard, a web app giving access to developer profiles saving 50% of traditional research time for potential employers, Empowering developer to eliminating the need to resume creation to showcase their skills or projects.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Next.js",
+          color: "green-pink-gradient",
         },
         {
-          name: "firebase",
-          color: "orange-text-gradient",
+          name: "OAuth2",
+          color: "green-pink-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "AWS",
+          color: "green-pink-gradient",
         },
       ],
-      image: uschat,
+      image: smbackend,
       source_code_link: "https://github.com/",
-    },
-    
+    }
   ];
   
   export { services, technologies, experiences,projects,courses };

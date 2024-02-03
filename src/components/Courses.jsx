@@ -26,7 +26,7 @@ const CourseCard = ({ course }) => {
           <img
             src={course.icon}
             alt={course.company_name}
-            className='w-[80%] h-[80%] object-contain'
+            className='w-[80%] h-[80%] object-contain rounded-full'
           />
         </div>
       }

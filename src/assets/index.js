@@ -11,12 +11,18 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import cpp from "./tech/cpp.png";
 import tailwind from "./tech/tailwind.png";
-import close from './close.svg'
+import expressjs from "./tech/expressjs.png";
+import firebase from "./tech/firebase.png";
+import mysql from "./tech/mysql.png";
+import nextjs from "./tech/nextjs.png";
+import postman from "./tech/postman.png";
+import close from './close.svg';
 
 import leetcode from "./leetcode.png";
 
 import codingninja from "./company/coding-ninjas.webp";
 import mentro from "./company/mentro.png";
+import deltax from "./company/deltax.jpeg"
 import juet from "./courses/juet.jpg";
 import internshala from "./courses/internshala.png";
 
@@ -45,10 +51,16 @@ export {
   leetcode,
   nodejs,
   reactjs,
+  deltax,
   tailwind,
   codingninja,
   juet,
   internshala,
   uschat,
   smbackend,
+  expressjs,
+  firebase,
+  mysql,
+  nextjs,
+  postman
 };

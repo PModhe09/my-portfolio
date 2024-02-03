@@ -9,13 +9,16 @@ const Projects = () => {
         Projects
       </div>
   
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
+  <div className=''>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {projects.map((project) => (
           <div key={project.name}>
             <ProjectCard project={project}  className=""/>
           </div>
         ))}
       </div>
+  </div>
+      
 
       <hr className="border-t-2 border-white mt-10" />
     </div>
