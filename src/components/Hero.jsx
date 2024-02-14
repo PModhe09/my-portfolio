@@ -1,5 +1,5 @@
 import {styles} from '../style';
-import pm from '../assets/pm.jpg';
+import pm from '../assets/pm1.jpg';
 
 
 const Hero = () => {
